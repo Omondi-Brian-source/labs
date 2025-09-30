@@ -18,6 +18,6 @@ export async function login(loginData: FormData) {
         console.log('While logging in user tis error occurred: ', error.message)
     }
 
-    revalidatePath('/protected', 'layout')
-    redirect('/protected')
+    revalidatePath('/dashboard', 'layout')
+    redirect('/dashboard')
 }
