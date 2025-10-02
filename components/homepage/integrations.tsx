@@ -16,7 +16,7 @@ export default function IntegrationsSection() {
   return (
     <section>
       <div className="py-32">
-        <div className="mx-auto max-w-6xl">
+        <div className="px-4 lg:p-0 mx-auto max-w-6xl">
           <div className="text-center">
             <h2 className="text-balance text-3xl font-semibold md:text-4xl">
               Integrate with your favorite tools
