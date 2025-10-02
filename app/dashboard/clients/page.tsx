@@ -20,7 +20,7 @@ export default function Page() {
         <div className="w-full flex">
           <div>
             <form>
-              <div>
+              <div className="w-full flex items-center space-x-2">
                 <Input placeholder="Search client records" />
               </div>
             </form>
