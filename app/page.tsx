@@ -5,7 +5,6 @@ import IntegrationsSection from "@/components/homepage/integrations";
 import ShowcaseSection from "@/components/homepage/showcase";
 import StatsSection from "@/components/homepage/stats";
 import Testimonials from "@/components/homepage/testimonials";
-import Image from "next/image";
 
 export default function Home() {
   return (
