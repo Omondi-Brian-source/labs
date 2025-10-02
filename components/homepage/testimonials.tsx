@@ -1,11 +1,12 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import Logo from "../logo";
 
 export default function Testimonials() {
   return (
     <section className="py-16 md:py-32">
-      <div className="mx-auto max-w-6xl space-y-8 px-2 md:space-y-16">
-        <div className="relative z-10 mx-auto max-w-2xl space-y-6 text-center md:space-y-12">
+      <div className="mx-auto max-w-6xl space-y-8 md:space-y-16">
+        <div className="relative z-10 mx-auto max-w-3xl space-y-6 text-center md:space-y-12">
           <h2 className="text-4xl font-medium lg:text-5xl">
             Built by innovators, loved by hundreds of clients
           </h2>
@@ -17,19 +18,13 @@ export default function Testimonials() {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-rows-2">
-          <Card className="grid grid-rows-[auto_1fr] gap-8 sm:col-span-2 sm:p-6 lg:row-span-2">
+          <Card className="grid grid-rows-[auto_1fr] gap-8 sm:col-span-2  lg:row-span-2">
             <CardHeader>
-              <img
-                className="h-6 w-fit dark:invert"
-                src="/"
-                alt="Nike Logo"
-                height="24"
-                width="auto"
-              />
+              <Logo />
             </CardHeader>
             <CardContent>
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                <p className="text-xl font-medium">
+                <p>
                   We partnered with Greenspark Labs to modernize our website and
                   integrate APIs. The result was a sleek, fast site that
                   customers love — and the engagement metrics speak for
@@ -63,7 +58,7 @@ export default function Testimonials() {
           <Card className="md:col-span-2">
             <CardContent className="h-full pt-6">
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
-                <p className="text-xl font-medium">
+                <p>
                   Thanks to Greenspark Labs, our app’s performance has improved
                   dramatically. Users love the speed, usability, and modern
                   design – working with them has been one of our best decisions.
@@ -103,7 +98,7 @@ export default function Testimonials() {
                 <div className="grid items-center gap-3 [grid-template-columns:auto_1fr]">
                   <Avatar className="size-12">
                     <AvatarImage
-                      src=""
+                      src="/"
                       alt="Yucel Faruksahan"
                       height="400"
                       width="400"
@@ -114,7 +109,7 @@ export default function Testimonials() {
                   <div>
                     <cite className="text-sm font-medium">Joshua Wanjohi</cite>
                     <span className="text-muted-foreground block text-sm">
-                      Senior Project Manager, Safaricom PLC
+                      Project Manager, Safaricom PLC
                     </span>
                   </div>
                 </div>
@@ -126,9 +121,7 @@ export default function Testimonials() {
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p>
                   Greenspark Labs turned our vague ideas into a polished, fully
-                  functioning application. The team was professional,
-                  responsive, and always communicated clearly. Our brand has
-                  never looked better.
+                  functioning application.
                 </p>
 
                 <div className="grid grid-cols-[auto_1fr] gap-3">
@@ -145,7 +138,7 @@ export default function Testimonials() {
                   <div>
                     <p className="text-sm font-medium">Mr George Nguri</p>
                     <span className="text-muted-foreground block text-sm">
-                      Senior Project Manager, Blue Capital
+                      Project Manager, Blue Capital
                     </span>
                   </div>
                 </div>
